@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fe3d22f-0aba-4b4b-9923-89b73fcd3645" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/articles/show.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/features/showing_article_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/articles/index.html.erb" afterPath="$PROJECT_DIR$/app/views/articles/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guardfile" afterPath="$PROJECT_DIR$/Guardfile" />
     </list>
     <ignored path="blog_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,41 +28,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="showing_article_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/features/showing_article_spec.rb">
+      <file leaf-file-name="Guardfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Guardfile">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+              <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articles_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
+      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/articles/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.7083335">
+              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.css.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83082706">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.16187051">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -86,9 +71,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/Guardfile" />
         <option value="$PROJECT_DIR$/spec/features/creating_article_spec.rb" />
-        <option value="$PROJECT_DIR$/app/views/articles/new.html.erb" />
         <option value="$PROJECT_DIR$/spec/features/listing_articles_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/article.rb" />
         <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
@@ -96,6 +79,8 @@
         <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/articles/show.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
+        <option value="$PROJECT_DIR$/Guardfile" />
+        <option value="$PROJECT_DIR$/app/views/articles/new.html.erb" />
       </list>
     </option>
   </component>
@@ -105,8 +90,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="114" />
-    <option name="y" value="98" />
+    <option name="x" value="138" />
+    <option name="y" value="240" />
     <option name="width" value="1287" />
     <option name="height" value="678" />
   </component>
@@ -594,7 +579,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="114" y="98" width="1287" height="678" extended-state="0" />
+    <frame x="138" y="240" width="1287" height="678" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27159533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -625,16 +610,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8093525">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <marker date="1455113271382" expanded="true" signature="36:233" placeholder="#..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20160210132000_create_articles.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26978418">
@@ -663,22 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Guardfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8233083">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -723,17 +682,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/showing_article_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.64748204">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
@@ -741,7 +692,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
+        <state vertical-scroll-proportion="0.28195488">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
@@ -751,6 +702,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.83082706">
           <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/showing_article_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40467626">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guardfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.7083335">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16187051">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
